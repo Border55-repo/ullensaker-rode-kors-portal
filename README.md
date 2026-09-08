@@ -1,5 +1,9 @@
-# Ullensaker Røde Kors-portal
+# Ullensaker Røde Kors – separat portalinngang
 
-Separat nettside for rapport-, beredskaps- og kompetanseportalen til Ullensaker Røde Kors Hjelpekorps.
+Offentlig inngang til de digitale tjenestene for Ullensaker Røde Kors Hjelpekorps.
 
-Dette prosjektet er adskilt fra `URKH-HOVED`.
+- Den sikre medlemsportalen håndterer innlogging og interne data.
+- `URKH-HOVED` er en egen, separat side og endres ikke av dette prosjektet.
+- Denne GitHub Pages-siden inneholder ingen medlemsliste, medlemsnummer eller innloggingsdata.
+
+Publiseres automatisk med GitHub Pages fra `main`.
