@@ -1,0 +1,11 @@
+{
+  "status": "operational",
+  "name": "URKH portalinngang",
+  "version": "1.0.0",
+  "checkedAt": "2026-09-08T17:45:00Z",
+  "services": {
+    "publicPage": "operational",
+    "securePortal": "external",
+    "urkhHoved": "separate"
+  }
+}
