@@ -25,9 +25,16 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Build retired site
+        run: |
+          rm -rf _retired
+          mkdir -p _retired
+          cp index.html _retired/index.html
+          cp index.html _retired/404.html
+
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _retired
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
